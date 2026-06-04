@@ -1,0 +1,22 @@
+# Isolating Python virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+#preventing uploading API Keys
+.env
+
+# Prevent uploading Python cache files
+**/__pycache__/
+*.pyc
+
+# Mac system configuration garbage files
+.DS_Store
+
+# Ignore local vector database folders (if Chroma/FAISS later)
+.chroma/
+faiss_index/
+
+#Extra stuffs
+campusx_requirements.txt
